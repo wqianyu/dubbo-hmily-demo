@@ -1,10 +1,10 @@
 # dubbo-hmily-demo
 ## 数据库
 - ### 需要用到3个数据库：详细sql请看（demo.sql）
-   1、hmily tcc存储柔性事务信息的数据库：参考hmily.yml配置（jdbc:mysql://127.0.0.1:3306/hmily）
-   2、账户A人民币数据所在的数据库hmily_fx1
-   3、账户A美元数据所在的数据库hmily_fx2
-   4、账户表及初始化数据
+   * 1、hmily tcc存储柔性事务信息的数据库：参考hmily.yml配置（jdbc:mysql://127.0.0.1:3306/hmily）
+   * 2、账户A人民币数据所在的数据库hmily_fx1
+   * 3、账户A美元数据所在的数据库hmily_fx2
+   * 4、账户表及初始化数据
 ## 模块介绍
 - ### boot-provider
    提供dubbo接口，供（boot-consumer）调用，实现对账户美元数据的操作（hmily_fx2）
