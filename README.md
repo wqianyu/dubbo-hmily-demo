@@ -18,6 +18,9 @@
     }
    * 用户2，兑换1美元-人民币
       
+## zk
+- ### dubbo注册中心使用zookeeper
+
 ## 测试结果
  - ### boot-consumer fx接口本地开启hmily tcc事务，远程服务boot-provider也开启hmily tcc事务；当远程服务事务失败，或者fx本地事务抛异常时，事务回滚
  - ### 回滚情况
