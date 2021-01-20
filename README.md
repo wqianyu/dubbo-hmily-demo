@@ -11,11 +11,11 @@
 - ### boot-consumer
    测试接口：http://127.0.0.1:9000/fx (post请求)
    * 参数：raw json
-   *    {
-   *	      "user_id": 2,
-   * 	      "amount": 1,
-   *          "buySellFlag" : false
-   * }
+       {
+   	      "user_id": 2,
+    	      "amount": 1,
+             "buySellFlag" : false
+    }
    * 用户2，兑换1美元-人民币
       
 ## 测试结果
